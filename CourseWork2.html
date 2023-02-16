@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minions Store</title>
+<link rel="stylesheet" href="CourseWork1.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<link rel="shortcut icon" type="image/x-icon" href="logo.jpeg">
+
+</head>
+<body>  
+<div class="store">
+    <a href="CourseWork1.html" style="color:black"><h1 style="font-size:70px">Minions Store</h1></a>
+    <a href="CourseWork2.html" style="color: white">
+      <div class="cartIcon">
+        <i class="bi bi-cart"></i>
+          <div id="productsAmount" class="productsAmount">0</div>
+      </div>
+    </a>
+</div> 
+<div id="text1" class="text" ></div>  
+
+<div id="shoppingCart" class="shoppingCart"></div>
+
+<form>
+  Name:
+  <input type="text" name="fullName" id="name" placeholder="Full name">
+  <input type="button" name="name" id="button1" value="Enter" onclick="showAndClearField(this.form)">
+  <br>
+  E-mail:
+  <input type="email" name="EmailAddresse" id="email" placeholder="eg:myname@gmail.com">
+  <input type="button" name="name" id="button2" value="Enter" onclick="validEmail(this.form)">
+  <br>
+  <input type="button" name="name" id="order" value="Place The Order">
+</form>
+<img src="m3.jpg" alt="Minions" width="728" height="375" style="float: left"> 
+<img src="m3.jpg" alt="Minions" width="728" height="375" style="float: right"> 
+
+<script src="shopItems.js"></script>
+<script src="CourseWork2.js"></script>
+<div class="footer">
+<a href="EditorPage.html" style="color:black">Designer:M.K.P.Piyumali</a>
+</div>
+</body>
+</html>
