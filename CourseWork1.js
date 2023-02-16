@@ -1,6 +1,6 @@
 let bucket= JSON.parse(localStorage.getItem("store")) || [];
 
-//Adding items to total quantity
+//Adding items to total quantity 
 
 function increment(id) 
 {
