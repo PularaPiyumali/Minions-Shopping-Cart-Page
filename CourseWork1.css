@@ -1,0 +1,268 @@
+*{margin:0;
+    padding:0}
+ 
+i{cursor: pointer;}    
+
+a{
+    text-decoration: none;
+    
+}
+
+form {text-align: center;
+}
+
+hr {color:black;
+     height:2px;
+      border-width:0;
+      background-color:black}
+
+footer{background-color:#ffb703;
+       color: black;
+       text-align: center;
+       padding: 31px 50px;
+       margin-top:40px
+}
+
+form{
+     margin-top: 50px;
+}
+
+ul.a {
+     list-style-position: outside;
+     }
+
+ul.b {
+     list-style-position: outside;
+     }
+
+li{
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+
+/*
+*/
+
+.footer { position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color:#ffb703;
+          color: black;
+          text-align: center;
+          padding: 20px;
+   }
+
+.store{display:flex;
+     flex-direction:row;
+     justify-content:space-between;
+     background-color:#ffb703;
+     color:black; 
+     padding: 31px 50px;
+     margin-bottom:40px}
+     
+.cartIcon{position:relative;
+        background-color: #000814;
+        color:#fef9ff;
+        font-size:32px;
+        padding:14px;
+        border-radius:14px}
+        
+.productsAmount{position:absolute;
+              top:-10px;
+              right:-6px;
+              background-color:#ff002b;
+              color:#fef9ff;
+              font-size:12px;
+              padding:6px;
+              border-radius:4px}
+              
+.products {display:grid;
+         grid-template-columns:repeat(4,240px);
+         justify-content:center;
+         gap:30px}
+        
+.tshirt1 {border: 3px solid black;
+        padding-left:4px;
+        border-radius:7px}
+
+.shoes {border: 3px solid black;
+     padding-left:4px;
+     border-radius:7px}
+
+.doll2 {border: 3px solid black;
+      padding-left:4px;
+     border-radius:7px}
+
+.dolls {border: 3px solid black;
+      padding-left:4px;
+      border-radius:7px}
+
+.hats {border: 3px solid black;
+     padding-left:4px;
+     border-radius:7px}
+
+.tshirt2 {border: 3px solid black;
+        padding-left:4px;
+        border-radius:7px}
+
+.converse {border: 3px solid black;
+         padding-left:4px;
+         border-radius:7px}
+
+.caps {border: 3px solid black;
+     padding-left:4px;
+     border-radius:7px}
+     
+.price {display:flex;
+      flex-direction:row;
+      justify-content:space-between}
+      
+.button {align-items:center;
+       display:flex;
+       flex-direction:row;
+       gap:10px;
+       font-size:20px}
+       
+
+.text{text-align: center;
+      margin-bottom: 20px;
+      
+}
+
+.home,.remove {background-color: #ffb703;
+     color: black;
+     padding: 3px;
+     border-radius: 3px;
+     cursor: pointer;
+     text-align: center;
+     margin-bottom: 10px;
+}
+
+.bi-x{color: red;
+     font-weight: bold;
+}
+
+.bi-dash-square{
+     color: red;
+     font-weight: bold;
+}
+
+.bi-plus-square{
+     color:green;
+     font-weight: bold;
+}
+
+.shoppingCart{display:grid;
+     grid-template-columns:repeat(2,300px);
+     justify-content:center;
+     gap:50px
+}
+
+
+
+.crossIcon{
+     display: flex;
+     align-items:center;
+     justify-content: space-between;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-top: 10px;
+     padding-bottom: 50px;
+}
+
+.priceButton{
+     display: flex;
+     align-items: center;
+     gap: 20px;
+}
+
+.cartPrices{
+     background-color:black;
+     color: white;
+     border-radius: 4px;
+     padding: 3px 6px;
+}
+
+#button1 {background-color: #ffb703;
+     color: black;
+     padding: 2px;
+     border-radius: 3px;
+     cursor: pointer;
+     text-align: center;
+     margin-bottom: 10px;
+}
+
+#button2 {background-color: #ffb703;
+     color: black;
+     padding: 2px;
+     border-radius: 3px;
+     cursor: pointer;
+     text-align: center;
+     margin-bottom: 10px;
+}
+
+#order {background-color: #ffb703;
+     color: black;
+     padding: 3px;
+     border-radius: 3px;
+     cursor: pointer;
+     text-align: center;
+     margin-bottom: 10px;
+}
+
+.editor{
+     border: 1px solid white;
+     margin: 25px 50px 75px 100px;
+     background-color: white;
+     color: black;
+}
+
+.about{
+     margin-bottom: 20px;
+     text-align: center;
+}
+
+.task{
+     color: black;
+     border: 1px solid white;
+     margin: 25px 50px 75px 100px;
+     background-color: white;
+}              /**/
+
+.mytask{
+     margin-bottom: 20px;
+     text-align: center;
+}
+
+.list{
+     color: black;
+     text-align: center;
+     margin-bottom: 10px;}
+
+.btn{border-radius: 7px;
+     background-color: #ffb703;
+     cursor: pointer;
+     padding: 7px;
+}
+
+.page{
+     color: black;
+      background-color:#ffb703; 
+      text-align: center;
+      padding: 31px 100px;
+      padding-bottom: 50px;
+     margin-bottom:0px}
+
+.group{
+     margin-top: 30px;
+     text-align: center;
+}
+
+.members{margin-top: 10px;
+     margin-bottom: 10px;
+     font-size: 25px;
+     text-align: center;
+}
+
+
